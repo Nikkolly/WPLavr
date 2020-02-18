@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,IAAI,CAAC;EACD,KAAK,EDAI,OAAO;CCAK",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_grid.sass",
+        "../sass/_colors.sass",
+        "../sass/blocks/_main.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
