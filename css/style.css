@@ -1,7 +1,12 @@
-html, body, ul, li {
+html, body, ul, li, h1 {
   margin: 0;
   padding: 0;
   font-family: Tahoma, Geneva, sans-serif;
+}
+
+body {
+  font-size: 13px;
+  color: #444444;
 }
 
 .container {
@@ -108,6 +113,11 @@ html, body, ul, li {
   padding: 40px 30px 40px 0;
   width: 480px;
   border-right: 1px solid #dddddd;
+  font-size: 13px;
+}
+
+.main-content h2 {
+  font-weight: normal;
 }
 
 .post {
@@ -318,5 +328,98 @@ html, body, ul, li {
 
 .footer-wrapper a:hover {
   text-decoration: none;
+}
+
+.main-content {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.main-content h2 {
+  font-weight: normal;
+}
+
+.services-box {
+  margin-top: 40px;
+  font-weight: normal;
+}
+
+.services-box a {
+  color: #12758e;
+}
+
+.services-box a:hover {
+  color: #ffa200;
+}
+
+.services-box__content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services-box__content .left img {
+  width: 120px;
+  height: 120px;
+}
+
+.services-box__content .right {
+  width: 320px;
+}
+
+.services-box ol li {
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
+.last {
+  padding-bottom: 80px;
+}
+
+.contacts h1 {
+  font-weight: normal;
+  color: black;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.contacts a {
+  color: #12758e;
+}
+
+.contacts a:hover {
+  text-decoration: none;
+  color: #ffa200;
+}
+
+.contacts p {
+  padding-bottom: 50px;
+}
+
+.contact-form h2 {
+  font-weight: normal;
+  color: #000;
+  font-size: 28px;
+}
+
+.contact-form form label {
+  display: block;
+  width: 100px;
+  font-size: 14px;
+}
+
+.contact-form form input[type="text"] {
+  width: 350px;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+
+.contact-form form textarea {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 15px;
+  display: block;
+  border: 1px solid #cccccc;
 }
 /*# sourceMappingURL=style.css.map */
